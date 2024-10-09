@@ -39,11 +39,10 @@ play_game()
 
 
 
-#python project - 2 (Password creater)
+#Python project - 2 (Password creater)
 import string
 import random
- 
-# Getting password length
+
 length = int(input("Enter password length: "))
  
 print('''Choose character set for password from these :
@@ -54,7 +53,6 @@ print('''Choose character set for password from these :
  
 characterList = ""
  
-# Getting character set for password
 while(True):
     choice = int(input("Pick a number "))
     if(choice == 1):
@@ -86,5 +84,4 @@ for i in range(length):
     # appending a random character to password
     password.append(randomchar)
  
-# printing password as a string
 print("The random password is " + "".join(password))
