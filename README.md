@@ -39,7 +39,7 @@ play_game()
 
 
 
-#Python project - 2 (Password creater)
+# Python project - 2 (Password creater)
 import string
 import random
 
